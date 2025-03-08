@@ -5,7 +5,7 @@ const Testimonials = () => {
     ];
   
     return (
-      <section className="py-16 bg-gray-200 text-center">
+      <section id="testimonials" className="py-16 bg-gray-200 text-center">
         <h2 className="text-3xl font-bold mb-8">What Our Users Say</h2>
         <div className="flex flex-col md:flex-row justify-center gap-6">
           {testimonials.map((t, index) => (

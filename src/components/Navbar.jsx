@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-transparent text-blue-600 fixed w-full top-0 shadow-lg z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold">SaaSify</h1>
+        <h1 className="text-2xl font-bold">SaaSify.co</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">

@@ -6,7 +6,7 @@ const Features = () => {
     ];
   
     return (
-      <section className="py-16 px-5">
+      <section id="features" className="py-16 px-5">
         <h2 className="text-3xl font-bold text-center mb-8">Why Choose Us?</h2>
         <div className="flex flex-col md:flex-row justify-center gap-8">
           {features.map((feature, index) => (

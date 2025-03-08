@@ -20,7 +20,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="py-16 px-5">
+    <section id="pricing" className="py-16 px-5">
       <h2 className="text-3xl font-bold text-center mb-8">Pricing Plans</h2>
       <div className="flex flex-col md:flex-row justify-center gap-8">
         {plans.map((plan, index) => (
