@@ -1,10 +1,10 @@
 import React from 'react'
 const Hero = () => {
     return (
-      <section className="relative bg-blue-400 text-white text-center py-20 px-5">
+      <section className="relative bg-gray-300 text-white text-center py-20 px-5">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-30"
+          className="absolute inset-0 bg-cover bg-center opacity-30 "
           style={{ backgroundImage: "url('public/images/hero bg img.png')" }}
         ></div>
   
