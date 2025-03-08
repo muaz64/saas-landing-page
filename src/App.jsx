@@ -1,9 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import react from 'react';
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Features from './components/Features'
 
 function App() {
   
@@ -12,7 +11,7 @@ function App() {
     <Navbar />
     <div className="pt-16"> {/* Offset for fixed Navbar */}
    <Hero />
-
+  <Features />
 
    </div>
     </>
